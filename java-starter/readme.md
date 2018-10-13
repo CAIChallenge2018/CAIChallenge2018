@@ -58,7 +58,7 @@ cd java-starter
 
 Build your jar file
 ```
-./mvwn package
+./mvnw package
 ```
 
 Deploy your application. Use this same command to redeploy whenever you want. This command reads the `manifest.yml` file from the current directory to make the deployment. Make sure your jar file has been built w/ your updates when redeploying.
